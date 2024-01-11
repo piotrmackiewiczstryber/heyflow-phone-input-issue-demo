@@ -1,0 +1,13 @@
+.content {
+    margin-top: 100px;
+    display: flex;
+    gap: 64px;
+    margin-bottom: 128px;
+}
+
+@media (max-width: 1280px) {
+    .content {
+        flex-direction: column;
+        margin-bottom: 64px;
+    }
+}

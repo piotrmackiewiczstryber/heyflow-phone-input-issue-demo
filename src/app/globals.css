@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+button,
+textarea,
+input {
+    font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Carousel styles BEGIN */
+.slide {
+    display: flex;
+    justify-content: center;
+}
+/* Carousel styles END */
+
+
+@media (max-width: 767px) {
+  body {
+    /*92px is the height of mobile the navbar*/
+    padding-top: 92px;
+  }
+}

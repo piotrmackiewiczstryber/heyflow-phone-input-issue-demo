@@ -1,0 +1,27 @@
+.input-range__track {
+    background: #D0D5DD;
+    height: 4px;
+}
+.input-range__slider {
+    width: 16px;
+    height: 16px;
+    margin-top: -10px;
+    background: #2E4ACB;
+    border: none;
+}
+.input-range__slider:hover {
+    background: #2E4ACB;
+}
+.input-range__slider:active {
+    background: #2E4ACB;
+}
+.input-range__track--active {
+    background: #2E4ACB;
+    margin-top: 0;
+}
+.input-range--rtl .input-range__label-container {
+    right: -11px;
+}
+.input-range--rtl .input-range__label--bottom-max {
+    display: none;
+}

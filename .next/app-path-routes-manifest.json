@@ -1,0 +1,13 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/_not-found": "/_not-found",
+  "/page": "/",
+  "/dashboard/page": "/dashboard",
+  "/blog/page": "/blog",
+  "/about-us/page": "/about-us",
+  "/apply/page": "/apply",
+  "/login/page": "/login",
+  "/contact/page": "/contact",
+  "/faq/page": "/faq",
+  "/blog/[id]/page": "/blog/[id]"
+}
